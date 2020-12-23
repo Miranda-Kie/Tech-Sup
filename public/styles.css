@@ -1,0 +1,162 @@
+/* body{
+  width: 100%;
+  text-
+} */
+  
+.ml-auto{
+  font-size: 1.2em;
+}
+.nav-link{
+  cursor: pointer;
+}
+
+/* home: Background */
+#home{
+  /* background-image: url("../img/Intro.jpg"); */
+  background-image: url("https://i.pinimg.com/originals/1e/88/57/1e88579447db4959243168d3b2b35af6.jpg");
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* home: company overview */
+.lead{
+  font-weight: 700;
+  color: rgb(2, 53, 50); 
+  font-style: italic; 
+  
+}
+
+#ourName{
+  color: black;
+
+}
+
+#ourPosition{
+  color:rgb(153, 147, 147);
+  font-style:italic
+}
+
+
+.hover{
+  transition: .5s;
+}
+
+.hover:hover{
+  background-color:rgba(3,3,3,.0);
+  color: #2c2c2c;
+  
+}
+
+.textCenter{
+  margin: auto;
+  width: 60%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .textCenter{
+    width: 100%;
+  }
+  #contact-bg{
+    padding: 0;
+  }
+  .card{
+    width: 95%;
+    margin: auto;
+  }
+  
+}
+@media only screen and (max-width: 700px) {
+  .card{
+    width: 80%;
+    margin: auto;
+  }
+  
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+  .container-fluid{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+}
+.card{
+  margin-bottom: 20px;
+}
+
+.center{
+  text-align: center;
+}
+#contact-bg{
+  background-image: url("https://lulurove.com/wp-content/uploads/2019/08/Contact-Us.jpg");
+  /* background-image: url("../img/check.jpg") norpeat; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 90px 0;
+}
+.featurette-heading{
+  color:#aeba30;
+  text-shadow: 4px 4px 4px #000000;;
+}
+#banner-fluid{
+  background-color: rgba(104, 103, 103, 0.4);
+}
+.lead{
+  color:#fff;
+  text-shadow: 4px 4px 4px #000000;;
+}
+
+.row-content{
+  padding: 30px 0;
+}
+
+.contact-spacing{
+  margin-top: 20px;
+}
+
+#TechSup {
+  background: #eee;
+  color: #000;
+}
+
+.social_btn{
+  color: #000;
+}
+
+#formLabel{
+  font-weight: 500;
+  color: black;
+}
+
+
+
+footer{
+  text-align: center;
+  background-color: #343a40;
+  color: #fff;
+}
+
+footer a{
+  color: #fff;
+}
+
+.profile_img img{
+  border-radius: 50%;
+}
