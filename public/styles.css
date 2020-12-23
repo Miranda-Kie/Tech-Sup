@@ -109,21 +109,20 @@
 }
 #contact-bg{
   background-image: url("https://lulurove.com/wp-content/uploads/2019/08/Contact-Us.jpg");
-  /* background-image: url("../img/check.jpg") norpeat; */
   background-repeat: no-repeat;
   background-size: cover;
   padding: 90px 0;
 }
 .featurette-heading{
   color:#aeba30;
-  text-shadow: 4px 4px 4px #000000;;
+  text-shadow: 4px 4px 4px #000000;
 }
 #banner-fluid{
   background-color: rgba(104, 103, 103, 0.4);
 }
 .lead{
   color:#fff;
-  text-shadow: 4px 4px 4px #000000;;
+  text-shadow: 4px 4px 4px #000000;
 }
 
 .row-content{
