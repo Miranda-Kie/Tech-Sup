@@ -65,6 +65,7 @@ function Header() {
             spy={true}
             smooth={true}
             duration={500}
+            offset = {-90}
             >
             Contact Us
           </Link>
