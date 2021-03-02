@@ -16,7 +16,7 @@ function Profile() {
 
     <div class="col-lg-6">
      <div class="profile_img">
-        <img src="https://media-exp1.licdn.com/dms/image/C5603AQHz0hhCf7NIYQ/profile-displayphoto-shrink_200_200/0/1583724202489?e=1614211200&v=beta&t=yajPyju0HPd9gKIawRxSHHrj33alTSJ7K99fowgCqy4" width="140px" height="140px" alt="Miranda"/>
+        <img src="./img/miranda.jfif" width="140px" height="140px" alt="Miranda"/>
       </div>
       <h3 id="ourName">Miranda Qi</h3>
       <h5 id="ourPosition">Partner Advisor</h5>
