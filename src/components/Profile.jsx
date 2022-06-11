@@ -14,7 +14,7 @@ function Profile() {
      <div class="profile_img">
         <img src="./img/miranda.jfif" width="140px" height="140px" alt="Miranda"/>
       </div>
-      <h3 id="ourName">MIRANDA QI</h3>
+      <h3 id="ourName">Miranda Qi</h3>
       <h5 id="ourPosition">Partner Advisor</h5>
       
       <p>Miranda is a full stack developer with over 5 years of leadership experience. 
