@@ -4,7 +4,6 @@ import parse from 'html-react-parser';
 import MyVerticallyCenteredModal from './MyVerticallyCenteredModal';
 
 
-
 function ServiceCard({obj}) {
   const [modalShow, setModalShow] = React.useState(false);
   return (

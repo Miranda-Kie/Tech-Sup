@@ -1,11 +1,7 @@
 import React from 'react';
 
-
-
-
 function Profile() {
     return (
-
 // <!-- .container -->
 <div class="container-fluid" id="portfolio"> 
 

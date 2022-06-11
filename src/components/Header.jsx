@@ -69,17 +69,10 @@ function Header() {
             >
             Contact Us
           </Link>
-            {/* <Nav.Link href="#About">About</Nav.Link>
-            <Nav.Link href="#Services">Services</Nav.Link>
-            <Nav.Link href="#Portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="#ContactUs">Contact Us</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
         {/* </Container> */}
       </Navbar>
-
-
-
     </>
   );
  }

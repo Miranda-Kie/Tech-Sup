@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import {Form, Button} from 'react-bootstrap';
-// import emailjs from 'emailjs-com';
 import {useForm} from 'react-hook-form';
 
 

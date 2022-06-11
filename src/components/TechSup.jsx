@@ -21,16 +21,7 @@ function TechSup() {
   </div> 
 </div>
 </div>
-
   );
  }
-
-
-
-
-
-
-
-
 
 export default TechSup;

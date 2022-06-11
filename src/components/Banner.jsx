@@ -20,7 +20,6 @@ function Banner() {
       Services worldwide. You name the technology and we have it in store for you. We are a 
       team of highly enthusiastic designers, developers, technical analysts and digital 
       marketers who believe in creating masterpieces for our clients.
-     
       </p>
       <br />
     </div>
@@ -29,8 +28,7 @@ function Banner() {
   </div>
 </div>
 </div>
-
         );
     }
    
-   export default Banner;
+export default Banner;
