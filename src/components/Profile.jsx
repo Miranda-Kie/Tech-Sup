@@ -33,7 +33,7 @@ function Profile() {
     {/* <!-- /.col-lg-4 --> */}
     <div class="col-lg-6">
       <div class="profile_img">
-        <img src="https://media-exp1.licdn.com/dms/image/C5603AQHdkPEjiRkT6g/profile-displayphoto-shrink_200_200/0/1586724524458?e=1614211200&v=beta&t=p3QJ8EfBJj_q27FZf_zc0jLh37Cef2hpeWCKBRT4T3A" width="140px" height="140px" alt="Mehran"/>
+        <img src="./img/mehran.jfif" width="140px" height="140px" alt="Mehran"/>
       </div>
       <h3 id="ourName">Mehran Alipour</h3>
       <h5 id="ourPosition">Partner Advisor</h5>
