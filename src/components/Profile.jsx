@@ -21,12 +21,11 @@ function Profile() {
       <h3 id="ourName">MIRANDA QI</h3>
       <h5 id="ourPosition">Partner Advisor</h5>
       
-      <p>Miranda is a Senior Technology Executive with over 10 years of leadership experience. 
+      <p>Miranda is a full stack developer with over 5 years of leadership experience. 
         She has worked in many different industry sectors such as healthcare, bio-technology, 
         capital markets, insurance, manufacturing, and energy. Miranda has a BSc. in Psychology 
         and a Diploma in Computer Programming.
       </p>
-
       <p><a class="btn btn-secondary" href="https://www.linkedin.com/in/miranda-xinying-qi-33821795/" role="button">View details &raquo;</a></p>
     </div>
     
@@ -43,6 +42,7 @@ function Profile() {
         His knowledge, both as a designer and a developer, allows him to design 
         the ultimate website for you.
       </p>
+      <br/>
       <p><a class="btn btn-secondary" href="https://www.linkedin.com/in/mehran-alipour-3a5b1a14a/" role="button">View details &raquo;</a></p>
     </div>
     {/* <!-- /.col-lg-4 --> */}

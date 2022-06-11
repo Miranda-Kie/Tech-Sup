@@ -10,11 +10,11 @@ function ServiceCard({obj}) {
   return (
     <div class="col-lg-3 col-md-6">
       <Card>
-        <Card.Img variant="top" src={obj.img} />
+        <Card.Img variant="top" src={obj.img} alt="image"/>
         <Card.Body>
           <Card.Title>{obj.title}</Card.Title>
           <Card.Text>
-            {parse([obj.post.substring(0, 120).trim(),"..."].join(""))}
+            {parse([obj.post.substring(0, 110).trim(),"..."].join(""))}
           </Card.Text>
         </Card.Body>
         <Card.Body>

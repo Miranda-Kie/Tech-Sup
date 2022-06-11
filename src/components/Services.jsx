@@ -8,10 +8,10 @@ function Services() {
   const [data, setData] = useState(null);
 
   useEffect(()=> {
-    fetch('https://infinite-stream-88004.herokuapp.com/api/posts')
+    fetch('https://services-techsup.herokuapp.com/api/posts')
       .then((response) => response.json())
       .then(setData);
-  })
+  },[])
 
   if(data){
     
