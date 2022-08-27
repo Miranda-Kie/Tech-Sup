@@ -1,14 +1,12 @@
 import React from 'react';
 
-function Footer(props) {
+const Footer = (props) => {
   return (
-    <>
-      <footer class="mastfoot mt-auto py-3">
-        <div class="container">
+      <footer className="mastfoot mt-auto py-3">
+        <div className="container">
           <p>Copyright © {props.year} TechSup.ca, Inc.</p>
         </div>
       </footer>
-    </>
   );
  }
 

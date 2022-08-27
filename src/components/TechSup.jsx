@@ -1,26 +1,23 @@
 import React from 'react';
 
-
-
-
-function TechSup() {
+const TechSup = () => {
     return (
-<div id="TechSup">
-<div class="container-fluid">
-  {/* </div><!-- <hr class="featurette-divider"> -->
-  <!-- About Us --> */}
-  <div class="row row-content">
-    <div class="textCenter">
-        <h1>TechSup</h1>
-        <p> We drive, strive and give 100% for success of all our projects. 
-            With our project management methodology, we’re able to design and 
-            implement technology solutions on a quick turnaround, 
-            and the cost-benefit pays for itself over time.
-        </p>
-    </div>
-  </div> 
-</div>
-</div>
+        <div id="TechSup">
+          <div className="container-fluid">
+            {/* </div><!-- <hr className="featurette-divider"> -->
+            <!-- About Us --> */}
+            <div className="row row-content">
+              <div className="textCenter">
+                  <h1>TechSup</h1>
+                  <p> We drive, strive and give 100% for success of all our projects. 
+                      With our project management methodology, we’re able to design and 
+                      implement technology solutions on a quick turnaround, 
+                      and the cost-benefit pays for itself over time.
+                  </p>
+              </div>
+            </div> 
+          </div>
+        </div>
   );
  }
 

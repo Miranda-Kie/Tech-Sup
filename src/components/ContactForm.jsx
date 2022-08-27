@@ -1,23 +1,22 @@
-import React, {useState} from 'react';
-import {Form, Button} from 'react-bootstrap';
-import {useForm} from 'react-hook-form';
+import React, { useState } from 'react';
+import { Form, Button } from 'react-bootstrap';
+import { useForm } from 'react-hook-form';
 
 
-function ContactForm() {
+const ContactForm = () => {
 
   const [validated, setValidated] = useState(false);
-
-
-    const { register, handleSubmit, errors } = useForm();
+  const { register, handleSubmit, errors } = useForm();
 
     const sendFeedback = (serviceID, templateId, variables) => {
       window.emailjs.send(
-          serviceID, templateId,
+          serviceID, 
+          templateId,
           variables
       ).then(res => {
           console.log('Email successfully sent!')
       })
-          .catch(err => console.error('There has been an error. Here some thoughts on the error that occured:', err))
+      .catch(err => console.error('There has been an error. Here some thoughts on the error that occured:', err))
   }
     
     const onSubmit = (data, r) => {
@@ -30,7 +29,6 @@ function ContactForm() {
   }
 
   return (
-    <>
       <Form noValidate validated={validated} onSubmit={handleSubmit(onSubmit)}>
         <Form.Group controlId="FName">
           <Form.Label id="formLabel">First Name</Form.Label>
@@ -88,10 +86,10 @@ function ContactForm() {
           <Form.Label id="formLabel">Subject</Form.Label>
           <Form.Control as="select" name="Subject" 
            ref={
-                        register({
-                            required: true
-                        })
-                    } 
+                  register({
+                      required: true
+                  })
+                } 
           >
             <option>Quote</option>
             <option>Technical Support</option>
@@ -104,18 +102,17 @@ function ContactForm() {
           <Form.Label id="formLabel">Inquiry</Form.Label>
           <Form.Control as="textarea" rows={3} name="Inquiry" 
              ref={
-                        register({
-                            required: true
-                        })
-                    } 
+                    register({
+                        required: true
+                    })
+                } 
           />
              {errors.Inquiry && "oops, you forgot your message!"}
         </Form.Group>
-        <Button type="submit" class="btn btn-dark btn-lg hover">
+        <Button type="submit" className="btn btn-dark btn-lg hover">
           Submit
         </Button>
       </Form>
-    </>
   );
  }
 

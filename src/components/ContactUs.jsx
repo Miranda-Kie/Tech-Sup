@@ -3,16 +3,16 @@ import ContactForm from './ContactForm';
 import ContactInfo from './ContactInfo';
 
 
-function ContactUs() {
+const ContactUs = () => {
   return (
     <div id="contact">
       <div id="contact-bg">
-        <div class="container-fluid" >
-          <div class="row row-content">
-            <div class="col-md-6" >
+        <div className="container-fluid" >
+          <div className="row row-content">
+            <div className="col-md-6" >
               <ContactInfo />
             </div>
-            <div class="col-md-6" >
+            <div className="col-md-6" >
               <ContactForm />
             </div>
           </div>

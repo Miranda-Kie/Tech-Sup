@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Header from './Header';
 import Banner from './Banner';
 import TechSup from './TechSup';
@@ -8,11 +8,10 @@ import ContactUs from './ContactUs';
 import Footer from './Footer';
 
 
-function App() {
-  
+const App = () => {
 
   return (
-    <>
+    <Fragment>
       <Header />
       <Banner />
       <TechSup />
@@ -20,7 +19,7 @@ function App() {
       <Services />
       <ContactUs />
       <Footer year={new Date().getFullYear()}/>
-    </>
+    </Fragment>
 
 
   );

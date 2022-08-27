@@ -4,10 +4,10 @@ import parse from 'html-react-parser';
 import MyVerticallyCenteredModal from './MyVerticallyCenteredModal';
 
 
-function ServiceCard({obj}) {
+const ServiceCard = ({obj}) => {
   const [modalShow, setModalShow] = React.useState(false);
   return (
-    <div class="col-lg-3 col-md-6">
+    <div className="col-lg-3 col-md-6">
       <Card>
         <Card.Img variant="top" src={obj.img} alt="image"/>
         <Card.Body>

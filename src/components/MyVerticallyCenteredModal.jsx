@@ -1,7 +1,7 @@
 import React from 'react';
 import { Modal, Button } from 'react-bootstrap';
 
-function MyVerticallyCenteredModal(props) {
+const MyVerticallyCenteredModal = (props) => {
     return (
       <Modal
         {...props}
@@ -21,7 +21,7 @@ function MyVerticallyCenteredModal(props) {
           </p>
         </Modal.Body>
         <Modal.Footer>
-          <Button class="btn btn-dark btn-lg hover" onClick={props.onHide} >Close</Button>
+          <Button className="btn btn-dark btn-lg hover" onClick={props.onHide} >Close</Button>
         </Modal.Footer>
       </Modal>
     );
