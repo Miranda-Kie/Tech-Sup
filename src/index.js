@@ -4,6 +4,14 @@ import App from './components/App';
 import { positions, transitions, Provider as AlertProvider } from 'react-alert';
 import AlertTemplate from 'react-alert-template-basic';
 
+//setting up config file
+var dotenv = require('dotenv')
+var dotenvExpand = require('dotenv-expand')
+var myEnv = dotenv.config()
+dotenvExpand.expand(myEnv)
+
+console.log(process.env)
+
 const options = {
   duration: 5000,
   position: positions.MIDDLE,

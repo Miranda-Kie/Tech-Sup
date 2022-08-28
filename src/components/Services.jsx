@@ -10,7 +10,7 @@ const Services = () => {
   const alert = useAlert();
 
   useEffect(()=> {
-    axios.get('https://services-techsup.herokuapp.com/api/posts')
+    axios.get(process.env.REACT_APP_SERVICES_URL)
             .then(res =>setData(res.data))
             .catch(error => alert.error(error));
   },[alert,data])
