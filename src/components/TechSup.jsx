@@ -21,4 +21,4 @@ const TechSup = () => {
   );
  }
 
-export default TechSup;
+export default TechSup; 
