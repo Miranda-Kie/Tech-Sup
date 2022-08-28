@@ -1,8 +1,4 @@
-/* body{
-  width: 100%;
-  text-
-} */
-  
+
 .ml-auto{
   font-size: 1.2em;
 }
@@ -11,6 +7,37 @@
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
+}
+
+/* Loader */
+.loader {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 80px;
+  height: 80px;
+  padding-left: 0;
+}
+.loader:after {
+  content: ' ';
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #212529;
+  border-color: #212529 transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /* home: Background */
@@ -31,12 +58,10 @@
   font-weight: 700;
   color: rgb(2, 53, 50); 
   font-style: italic; 
-  
 }
 
 #ourName{
   color: black;
-
 }
 
 #ourPosition{
