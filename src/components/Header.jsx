@@ -10,7 +10,7 @@ const Header = () => {
               expand="lg" 
               bg="dark" 
               variant="dark" 
-              fixed-top>
+              fixed-top="true">
         <Navbar.Brand className="mr-auto" >
           <Link 
               to ="/home"
@@ -30,7 +30,7 @@ const Header = () => {
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" >
-          <Nav className="ml-auto" fluid>
+          <Nav className="ml-auto" fluid="true">
           <Link 
             to ="TechSup"
             activeClass="active"

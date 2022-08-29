@@ -1,16 +1,18 @@
-import React, { Fragment } from 'react';
-import Header from './Header';
-import Banner from './Banner';
-import TechSup from './TechSup';
-import Profile from './Profile';
-import Services from './Services';
-import ContactUs from './ContactUs';
-import Footer from './Footer';
+import React, { Fragment, Suspense } from 'react';
+import Loader from './Loader';
 
+const Header = React.lazy(()=> import('./Header'));
+const Banner = React.lazy(()=> import('./Banner'));
+const TechSup = React.lazy(()=> import('./TechSup'));
+const Profile = React.lazy(()=> import('./Profile'));
+const Services = React.lazy(()=> import('./Services'));
+const ContactUs = React.lazy(()=> import('./ContactUs'));
+const Footer = React.lazy(()=> import('./Footer'));
 
 const App = () => {
   return (
     <Fragment>
+    <Suspense fallback={<Loader/>}>
       <Header />
       <Banner />
       <TechSup />
@@ -18,9 +20,9 @@ const App = () => {
       <Services />
       <ContactUs />
       <Footer year={new Date().getFullYear()}/>
+    </Suspense>
     </Fragment>
   );
 }
-
 
 export default App;
