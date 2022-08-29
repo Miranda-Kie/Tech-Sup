@@ -9,7 +9,6 @@ import Footer from './Footer';
 
 
 const App = () => {
-
   return (
     <Fragment>
       <Header />
@@ -20,8 +19,6 @@ const App = () => {
       <ContactUs />
       <Footer year={new Date().getFullYear()}/>
     </Fragment>
-
-
   );
 }
 

@@ -8,7 +8,7 @@ const Profile = () => {
 {/* 
   <!-- <hr className="featurette-divider"> -->
   <!-- Portfolio --> */}
-  <div className="center row row-content">
+  <div className="text-center row px-0 py-5">
 
     <div className="col-lg-6">
      <div className="profile_img">

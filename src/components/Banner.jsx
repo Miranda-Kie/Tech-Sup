@@ -9,10 +9,10 @@ const Banner = () => {
 
 {/* <!-- START THE FEATURETTES -->
   <!-- Wrap the rest of the page in another container to center all the content. --> */}
-  <div className="row featurette row-content">
+  <div className="row featurette px-0 py-4">
     <div className="col-lg-5">
       <br />
-      <h2 className="featurette-heading">COMPANY OVERVIEW</h2>
+      <h2 className="feature-heading">COMPANY OVERVIEW</h2>
       <p className="lead">We were founded in 2020 and our headquarter is in Toronto, Ontario. 
       We take pride to call ourselves one of the pioneer companies offering IT Consulting 
       Services worldwide. You name the technology and we have it in store for you. We are a 

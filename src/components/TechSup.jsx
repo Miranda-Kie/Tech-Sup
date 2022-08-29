@@ -6,7 +6,7 @@ const TechSup = () => {
           <div className="container-fluid">
             {/* </div><!-- <hr className="featurette-divider"> -->
             <!-- About Us --> */}
-            <div className="row row-content">
+            <div className="row px-0 py-5">
               <div className="textCenter">
                   <h1>TechSup</h1>
                   <p> We drive, strive and give 100% for success of all our projects. 

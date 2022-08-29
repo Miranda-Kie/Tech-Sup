@@ -2,6 +2,7 @@
 .ml-auto{
   font-size: 1.2em;
 }
+
 .nav-link{
   cursor: pointer;
   -webkit-user-select: none; /* Safari */
@@ -19,6 +20,7 @@
   height: 80px;
   padding-left: 0;
 }
+
 .loader:after {
   content: ' ';
   display: block;
@@ -46,7 +48,6 @@
   background-image: url("https://i.pinimg.com/originals/1e/88/57/1e88579447db4959243168d3b2b35af6.jpg");
   /* Full height */
   height: 100%;
-
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -58,6 +59,8 @@
   font-weight: 700;
   color: rgb(2, 53, 50); 
   font-style: italic; 
+  color:#fff;
+  text-shadow: 4px 4px 4px #000000;
 }
 
 #ourName{
@@ -69,7 +72,6 @@
   font-style:italic
 }
 
-
 .hover{
   transition: .5s;
 }
@@ -77,7 +79,14 @@
 .hover:hover{
   background-color:rgba(3,3,3,.0);
   color: #2c2c2c;
-  
+}
+
+.email{
+  color: black;
+}
+
+.email:hover{
+  color:dodgerblue;
 }
 
 .textCenter{
@@ -89,23 +98,9 @@
 @media only screen and (max-width: 900px) {
   .textCenter{
     width: 100%;
-  }
-  #contact-bg{
-    padding: 0;
-  }
-  .card{
-    width: 95%;
-    margin: auto;
-  }
-  
+  }  
 }
-@media only screen and (max-width: 700px) {
-  .card{
-    width: 80%;
-    margin: auto;
-  }
-  
-}
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -123,39 +118,22 @@
     padding-left: 8%;
     padding-right: 8%;
   }
-
-}
-.card{
-  margin-bottom: 20px;
 }
 
-.center{
-  text-align: center;
-}
 #contact-bg{
   background-image: url("https://lulurove.com/wp-content/uploads/2019/08/Contact-Us.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 90px 0;
 }
-.featurette-heading{
+
+.feature-heading{
   color:#aeba30;
   text-shadow: 4px 4px 4px #000000;
 }
+
 #banner-fluid{
   background-color: rgba(104, 103, 103, 0.4);
-}
-.lead{
-  color:#fff;
-  text-shadow: 4px 4px 4px #000000;
-}
-
-.row-content{
-  padding: 30px 0;
-}
-
-.contact-spacing{
-  margin-top: 20px;
 }
 
 #TechSup {
@@ -172,8 +150,6 @@
   color: black;
 }
 
-
-
 footer{
   text-align: center;
   background-color: #343a40;
@@ -187,3 +163,36 @@ footer a{
 .profile_img img{
   border-radius: 50%;
 }
+
+.cardFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.cardFooter{
+  border: none;
+  background-color:#fff;
+}
+
+.cardTitle{
+  text-align:center;
+  padding:auto;
+  margin:auto
+}
+
+@media only screen and (min-width: 1024px) and (max-width:1378px){
+  .cardTitle{
+     height:45px;
+ }
+}
+ @media only screen and (min-width: 1379px) or (max-width: 987px){
+  .cardTitle{
+     height:30px;
+ }
+}
+
+
+
+
+

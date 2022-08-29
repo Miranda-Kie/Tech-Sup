@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 const ContactInfo = () => {
@@ -6,18 +7,21 @@ const ContactInfo = () => {
     <>
       <h1>Get in touch!</h1>
       
-      <h5 className="contact-spacing">
+      <h5 className="mt-4">
         <i className="fas fa-map-marker-alt"></i> 
-        <span style={{ marginLeft: 5}}>24 W Lawn Crescent,</span> 
+        <span className="ml-2">24 W Lawn Crescent,</span> 
         <br /> 
-        <span style={{ marginLeft: 5}}>Whitchurch-Stouffville, ON</span> 
+        <span className="ml-4">Whitchurch-Stouffville, ON</span> 
         <br /> 
-        <span style={{ marginLeft: 5}}>L4A 2S9 </span>
+        <span className="ml-4">L4A 2S9 </span>
       </h5>
-      
-      <h5 className="contact-spacing" style={{ marginLeft: 5}}><i className="fas fa-envelope"></i> info@techsup.ca</h5>
-      <h5 className="contact-spacing" style={{ marginLeft: 5}}><i className="fas fa-phone"></i> (647)999-1234</h5>
-      <h3 className="contact-spacing">
+      <h5 className="mt-2 ml-0"><i className="fas fa-phone"></i> (647) 999-1234</h5>
+      <a className="mt-2 ml-0 email" 
+          style={{ fontSize: "1.25rem", fontWeight: "bold" }} 
+          href="mailto:tech.sup102@gmail.com">
+          <i className="fas fa-envelope"></i> tech.sup102@gmail.com 
+      </a>
+      <h3 className="mt-2 ml-0">
         <a className="social_btn" href="https://www.facebook.com/">
           <i className="fab fa-facebook-square"></i>
         </a>

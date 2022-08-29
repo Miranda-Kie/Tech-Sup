@@ -4,6 +4,7 @@ import Loader from './Loader';
 import { useAlert } from 'react-alert';
 import axios from 'axios';
 
+
 const Services = () => {
 
   const [data, setData] = useState(null);
@@ -19,14 +20,14 @@ const Services = () => {
     return (
       <div className="album py-5 bg-light" id="services">
         <div className="container-fluid">
-          <div className="row row-content">
+          <div className="row px-0 py-4">
             {data.map((postDetail, index) => {
               return<ServiceCard obj = {postDetail} key={index}/>
             })}
           </div>
         </div>
       </div> 
-    );
+    )
   }
   else{
    return (
