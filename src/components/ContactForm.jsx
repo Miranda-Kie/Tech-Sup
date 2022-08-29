@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Form, Button } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
 
 
 const ContactForm = () => {
 
-  const [validated, setValidated] = useState(false);
+  const validated = false;
   const { register, handleSubmit, errors } = useForm();
 
     const sendFeedback = (serviceID, templateId, variables) => {
