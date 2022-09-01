@@ -1,9 +1,15 @@
-import React from 'react';
+import React,{ useEffect } from 'react';
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 const Profile = () => {
+  useEffect(()=>{
+    Aos.init({duration: 2000});
+
+  },[])
     return (
 // <!-- .container -->
-<div className="container-fluid" id="portfolio"> 
+<div className="container-fluid" id="portfolio" data-aos="fade-right"> 
 
 {/* 
   <!-- <hr className="featurette-divider"> -->
