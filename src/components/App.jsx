@@ -10,11 +10,10 @@ const ContactUs = React.lazy(()=> import('./ContactUs'));
 const Footer = React.lazy(()=> import('./Footer'));
 
 const App = () => {
-
   return (
     <Fragment>
     <Suspense fallback={<Loader/>}>
-      <Header />
+      <Header />   
       <Banner />
       <TechSup />
       <Profile />

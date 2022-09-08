@@ -11,7 +11,7 @@
 }
 
 /* Loader */
-.loader {
+/* .loader {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -31,7 +31,7 @@
   border: 6px solid #212529;
   border-color: #212529 transparent;
   animation: lds-dual-ring 1.2s linear infinite;
-}
+} */
 
 @keyframes lds-dual-ring {
   0% {
@@ -191,3 +191,4 @@ footer a{
      height:30px;
  }
 }
+

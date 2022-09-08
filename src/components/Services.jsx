@@ -20,7 +20,7 @@ const Services = () => {
 
   if(data){
     return (
-      <div className="album py-5 bg-light" id="services">
+       <div className="album py-5 bg-light" id="services">
         <div className="container-fluid">
           <div className="row px-0 py-4" data-aos="fade-right">
             {data.map((postDetail, index) => {
@@ -33,7 +33,7 @@ const Services = () => {
   }
   else{
    return (
-      <div><Loader/></div>  
+    <Loader/>
     );
   }
 }
